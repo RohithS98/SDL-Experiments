@@ -2,7 +2,7 @@ Its Pong!
 
 **Requirements:**
 
-&nbsp;&nbsp;gcc compiler
+&nbsp;&nbsp;&nbsp;&nbsp;gcc compiler
   
 &nbsp;&nbsp;&nbsp;&nbsp;SDL2 library
   
@@ -11,6 +11,8 @@ Its Pong!
 &nbsp;&nbsp;&nbsp;&nbsp;SDL2_ttf library
   
 &nbsp;&nbsp;&nbsp;&nbsp;SDL2_mixer library
+
+-----------------------------------------
 
 Run make and execute pong.
 
