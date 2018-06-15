@@ -1,16 +1,18 @@
 Its Pong!
 
+(pongscreenshot.png)
+
 **Requirements:**
 
-&nbsp;&nbsp;&nbsp;&nbsp;gcc compiler
+&nbsp;&nbsp;&nbsp;&nbsp;* gcc compiler
   
-&nbsp;&nbsp;&nbsp;&nbsp;SDL2 library
+&nbsp;&nbsp;&nbsp;&nbsp;* SDL2 library
   
-&nbsp;&nbsp;&nbsp;&nbsp;SDL2_image library
+&nbsp;&nbsp;&nbsp;&nbsp;* SDL2_image library
   
-&nbsp;&nbsp;&nbsp;&nbsp;SDL2_ttf library
+&nbsp;&nbsp;&nbsp;&nbsp;* SDL2_ttf library
   
-&nbsp;&nbsp;&nbsp;&nbsp;SDL2_mixer library
+&nbsp;&nbsp;&nbsp;&nbsp;* SDL2_mixer library
 
 -----------------------------------------
 
