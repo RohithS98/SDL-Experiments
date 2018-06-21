@@ -1,6 +1,6 @@
 CFLAGS = -c -g -w
 LFLAGS = -w
-SDLFLAGS = -lSDL2 -lSDL2_image -lSDL2_ttf
+SDLFLAGS = -lSDL2 -lSDL2_ttf
 
 all : maintext.o LText.o gameboard.o main.o
 	g++ maintext.o gameboard.o $(LFLAGS) -o 2048text

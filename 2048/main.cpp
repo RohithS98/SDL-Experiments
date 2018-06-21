@@ -1,5 +1,4 @@
 #include <SDL2/SDL.h>
-#include <SDL2/SDL_image.h>
 #include <SDL2/SDL_ttf.h>
 #include <stdio.h>
 #include <math.h>
@@ -82,12 +81,6 @@ bool init(){
 				SDL_SetRenderDrawColor( renderer, 0x0, 0x0, 0x0, 0xFF );
 				//SDL_SetRenderDrawBlendMode(renderer, SDL_BLENDMODE_BLEND);
 				//Initialize PNG loading
-				int imgFlags = IMG_INIT_PNG;
-				if( !( IMG_Init( imgFlags ) & imgFlags ) )
-				{
-					printf( "SDL_image could not initialize! SDL_image Error: %s\n", IMG_GetError() );
-					success = false;
-				}
 
 				if( TTF_Init() == -1 )
 				{
@@ -155,7 +148,6 @@ void close(){
 	SDL_DestroyWindow( window );
 	
 	TTF_Quit();
-	IMG_Quit();
 	SDL_Quit();
 }
 
