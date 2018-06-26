@@ -1,4 +1,4 @@
-# SDL-Experiments
+# SDL-Games
 
 Just some test programs using SDL.
 
